@@ -18,9 +18,9 @@ const Footer = (props) =>{
                     <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget about-widget">
                             <div className="logo widget-title">
-                                <img src={"./assets/imgs/logoo.jpeg"} style={{width:"150px",height:"150px",borderRadius:"100%"}} alt="blog"/>
+                                <img src={"./assets/imgs/pa2.png"} style={{width:"150px", margin: '30px 0',borderRadius:"5px", objectFit: 'contain'}} alt="blog"/>
                             </div>
-                            <p>وثيقة الانقاذ الوطني يرحب بكم<br/>وثيقة الانقاذ الوطني يرحب بكم</p>
+                            <p>وثيقة الانقاذ الوطني يرحب بكم</p>
                             <ul style={{padding: 0, margin: 0}}>
                                 <li>
                                     <Link to="/">
@@ -61,7 +61,7 @@ const Footer = (props) =>{
                         </div>
                     </div>
                     <div className='col-12'>
-                        <p className="copyright"> &copy; 2021 Developed By Domino ICT.. All Rights Reserved.</p>
+                        <p className="copyright"> &copy; 2021 Developed By Domino ICT. All Rights Reserved.</p>
                     </div>
 
                 </div>

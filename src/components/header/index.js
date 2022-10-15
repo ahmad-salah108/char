@@ -52,7 +52,7 @@ export default class Header extends Component {
                                 </div>
                                 <div className="col-lg-2 col-md-6 col-6">
                                     <div className="navbar-header">
-                                        <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img style={{width:"160px",height:"80px"}} src={"./assets/imgs/logoo.jpeg"}
+                                        <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img style={{width:"160px",height:"80px", objectFit: 'contain'}} src={"./assets/imgs/pa2.png"}
                                             alt="" /></Link>
                                     </div>
                                 </div>
