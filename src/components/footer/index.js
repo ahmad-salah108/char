@@ -61,7 +61,7 @@ const Footer = (props) =>{
                         </div>
                     </div>
                     <div className='col-12'>
-                        <p className="copyright"> &copy; 2021 Developed By Domino ICT. All Rights Reserved.</p>
+                        <p className="copyright"> &copy; 2021 Developed By Domino ICT.. All Rights Reserved.</p>
                     </div>
 
                 </div>
