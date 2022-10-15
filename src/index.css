@@ -1,0 +1,7 @@
+.ant-form-item.input-field{
+	width:100%;
+    
+}
+.ant-form-item.input-field input.ant-input {
+  height: 40px;
+}
