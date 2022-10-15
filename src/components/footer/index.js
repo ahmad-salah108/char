@@ -2,6 +2,7 @@ import React from 'react'
 import {Link}  from 'react-router-dom'
 import Logo from '../../images/logo2.png'
 import Projects from '../../api/projects'
+import './footer.css'
 
 const Footer = (props) =>{
 
@@ -19,8 +20,8 @@ const Footer = (props) =>{
                             <div className="logo widget-title">
                                 <img src={"./assets/imgs/logoo.jpeg"} style={{width:"150px",height:"150px",borderRadius:"100%"}} alt="blog"/>
                             </div>
-                            <p>Welcome and open yourself to your truest love this year with us! With the Release Process</p>
-                            <ul>
+                            <p>وثيقة الانقاذ الوطني يرحب بكم<br/>وثيقة الانقاذ الوطني يرحب بكم</p>
+                            <ul style={{padding: 0, margin: 0}}>
                                 <li>
                                     <Link to="/">
                                         <i className="ti-facebook"></i>
@@ -47,11 +48,11 @@ const Footer = (props) =>{
                     <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                         <div className="widget wpo-service-link-widget">
                             <div className="widget-title">
-                                <h3>Contact </h3>
+                                <h3>تواصل معنا</h3>
                             </div>
                             <div className="contact-ft">
-                                <p>Would you have any enquiries.Please feel free to contuct us</p>
-                                <ul>
+                                <p>اذا لديك اي تساؤل. رجاء لا تتردد في التواصل معنا</p>
+                                <ul style={{padding: 0}}>
                                     <li><i className="fi flaticon-mail"></i>charitio@gmail.com</li>
                                     <li><i className="fi flaticon-phone-call"></i>+888 (123) 869523</li>
                                     <li><i className="fi flaticon-location"></i>New York – 1075 Firs Avenue</li>
@@ -59,16 +60,10 @@ const Footer = (props) =>{
                             </div>
                         </div>
                     </div>
-
-                </div>
-            </div>
-        </div>
-        <div className="wpo-lower-footer">
-            <div className="container">
-                <div className="row">
-                    <div className="col col-xs-12">
-                        <p className="copyright"> &copy; 2021 charitio Theme. Design By <Link to="/index">wpOcean</Link>. All Rights Reserved.</p>
+                    <div className='col-12'>
+                        <p className="copyright"> &copy; 2021 Domino ICT. All Rights Reserved.</p>
                     </div>
+
                 </div>
             </div>
         </div>

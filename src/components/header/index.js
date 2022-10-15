@@ -61,7 +61,7 @@ export default class Header extends Component {
                                         <button className="menu-close"><i className="ti-close"></i></button>
                                         <ul className="nav navbar-nav mb-2 mb-lg-0">
                                             <li className="menu-item-has-children">
-                                                <Link onClick={ClickHandler} to="/">الرئيسة</Link>
+                                                <Link onClick={ClickHandler} to="/">الرئيسية</Link>
                                                 {/* <ul className="sub-menu">
                                                     <li><Link onClick={ClickHandler} to="/home">Home Charity</Link></li>
                                                     <li><Link onClick={ClickHandler} to="/home2">Home Education</Link></li>
