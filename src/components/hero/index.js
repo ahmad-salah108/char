@@ -15,7 +15,7 @@ const Hero =() => {
     const { t, i18n } = useTranslation()
 
     return (
-        <section className="wpo-hero-section-1">
+        <section className="wpo-hero-section-1" style={{height:"auto", padding:"50px 0"}}>
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col col-xs-6 col-lg-5">
