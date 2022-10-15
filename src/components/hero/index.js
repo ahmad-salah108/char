@@ -22,14 +22,14 @@ const Hero =() => {
                     <div className="col col-xs-6 col-lg-6">
                         <div className="wpo-hero-section-text">
                             <div className="wpo-hero-title-top">
-                                <span>Help The Poor Children</span>
+                                <span>وثيقة الانتاج الوطني</span>
                             </div>
-                            <div className="wpo-hero-title">
+                            {/* <div className="wpo-hero-title">
                                 <h2>{t("Euro")}</h2>
-                            </div>
+                            </div> */}
+                            <br/>
                             <div className="wpo-hero-subtitle">
-                                <p>We help local nonprofits access the funding, tools, training, and support they need
-                                    to become more.</p>
+                                <p>الموقع الرسمي لوثيقة الانتاج الوطني يرحب بكم</p>
                             </div>
                             {/* <div className="btns">
                                 <Link to="/about" className="btn theme-btn-s2">Get Started</Link>

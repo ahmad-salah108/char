@@ -74,7 +74,7 @@ const NewsList = () => {
         {blogs.slice(0,4).map((blog, bitem) => (
                                 <div className={`post format-standard-image`} key={bitem}>
                                     <div className="entry-media video-holder">
-                                        <img style={{width:"1200px",height:"778px"}} src={"./image1.jpg"} alt=""/>
+                                        <img style={{width:"600px",height:"320px", maxWidth:"100%"}} src={"./image1.jpg"} alt=""/>
                                     </div>
                                     <div className="entry-meta">
                                         <ul className='py-3'>

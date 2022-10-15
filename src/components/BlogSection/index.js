@@ -3,9 +3,39 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Slider from 'react-slick'
 import axios from 'axios'
+import './blogSection.css'
 
 const BlogSection = (props) => {
-    const [blogs, setBlogs] = useState();
+    const [blogs, setBlogs] = useState([
+        {
+            AUTHOR:"عادل",
+            IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
+            TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
+            BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
+            NEW_ID:1
+        },
+        {
+            AUTHOR:"عادل",
+            IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
+            TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
+            BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
+            NEW_ID:3
+        },
+        {
+            AUTHOR:"عادل",
+            IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
+            TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
+            BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
+            NEW_ID:3
+        },
+        {
+            AUTHOR:"عادل",
+            IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
+            TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
+            BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
+            NEW_ID:4
+        }
+    ]);
     useEffect(() => {
         axios.post('https://localhost:44387/api/News/getAllNews', { LANG_ID: "AR" })
             .then((res) => {
@@ -19,6 +49,7 @@ const BlogSection = (props) => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
+
     return (
         <>
             <section ref={props.lastNews} className="wpo-blog-section section-padding">
@@ -31,6 +62,9 @@ const BlogSection = (props) => {
                             </div>
                         </div>
                     </div>
+                    <h3 className='loadMore'>
+                        <Link to="/all-news">عرض المزيد</Link>
+                    </h3>
                     <div className="wpo-blog-items">
                         <div className="row">
                             {blogs?.slice(1, 4).map((blog, Bitem) => (
@@ -39,9 +73,9 @@ const BlogSection = (props) => {
                                         <div className="wpo-blog-img">
 
                                             <img style={{
-                                                width: "417px",
-                                                height: "250px"
-                                            }} src={blog.NEW_IMAGES?.length > 0 ? `data:image/${blog.NEW_IMAGES[0].FILE_TYPE};base64,${blog.NEW_IMAGES[0].FILE_B64}` : './assets/imgs/defaultNewImage.png'} alt="" />
+                                                width: "100%",
+                                                maxWidth:"100%"
+                                            }} src={blog.IMAGES?.length > 0 ? blog.IMAGES[0].FILE : './assets/imgs/defaultNewImage.png'} alt="" />
                                         </div>
                                         <div className="wpo-blog-content">
                                             <div className="wpo-blog-content-top">
