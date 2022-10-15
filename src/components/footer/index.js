@@ -4,6 +4,8 @@ import Logo from '../../images/logo2.png'
 import Projects from '../../api/projects'
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import logo from './../../assets/pa2.PNG'
+
 
 import './footer.css'
 
@@ -18,10 +20,10 @@ const Footer = (props) =>{
         <div className="wpo-upper-footer">
             <div className="container">
                 <div className="row">
-                    <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                         <div className="widget about-widget">
                             <div className="logo widget-title">
-                                <img src={"./assets/imgs/pa2.png"} style={{width:"150px", margin: '30px 0',borderRadius:"5px", objectFit: 'contain'}} alt="blog"/>
+                                <img src={logo} style={{width:"150px", margin: '30px 0',borderRadius:"5px", objectFit: 'contain'}} alt="blog"/>
                             </div>
                             <p>وثيقة الانقاذ الوطني يرحب بكم</p>
                             <ul style={{padding: 0, margin: 0}}>
@@ -63,7 +65,7 @@ const Footer = (props) =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                         <Calendar/>
                     </div>
                     <div className='col-12'>

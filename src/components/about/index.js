@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from  'react-router-dom'
 import abimg from '../../images/about.jpg'
 import shape from '../../images/ab-shape-2.png'
+import './about.css'
 
 
 const About = (props) => {
@@ -21,11 +22,11 @@ const About = (props) => {
                                 <img src={"https://images.pexels.com/photos/8194913/pexels-photo-8194913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} 
                                 style={{width:"500px", height:"500px", objectFit:"cover"}}
                                 alt=""/>
-                                <div className="wpo-ab-shape-1">
+                                {/* <div className="wpo-ab-shape-1">
                                     <div className="s-s1"></div>
                                     <div className="s-s2"></div>
                                 </div>
-                                <div className="wpo-ab-shape-2"><img src={shape} alt=""/></div>
+                                <div className="wpo-ab-shape-2"><img src={shape} alt=""/></div> */}
                                 {/* <div className="wpo-total-raised">
                                     <div className="wpo-total-raised-wrap">
                                         <div className="wpo-total-raised-icon">
@@ -52,7 +53,7 @@ const About = (props) => {
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-text">
-                            <span>من نحن</span>
+                            <span style={{color:"#d6b128"}}>من نحن</span>
                             <h2>مجموعة من الشخصيّات الوطنية من مشارب سياسية متعددة</h2>
                             <p>مجموعة من الشخصيّات الوطنية من مشارب سياسية متعددة، لا تشكل حزبا أو تجمعا سياسيا تداعت لتقديم رؤية متكاملة للخروج من حالة التردي التي لم يعشها الشعب الفلسطيني منذ النكبة. قررنا أن نأخذ زمام المبادرة، وأن نجد الطريق للتغيير، لتعويض آثار سنوات من الاستكانة الفلسطينية، وذلك من خلال ابتكار طريق جديد وخالق، عو ضا عن اللجوء إلى األفكار والحلول التقليدية التي جُرّبت  عشرات المرات، وأثبتت فشلها كل مرة. 
 هدفنا الدفع نحو السياسية تجاه ذلك، حالة وطنية تنجز تغييراً واسعاً وعميقًا في النظام الفلسطيني السياسي، وتعيد بناء مؤسساته؛ ذلك لتمكين شعبنا من مواجهة الأخطار الكبرى التي تهدد وجوده وأهدافه الوطنية.
@@ -63,7 +64,7 @@ const About = (props) => {
                                 <li>Randomised words which don't look even slightly believable.</li>
                                 <li>Making this the first true generator on the Internet.</li>
                             </ul> */}
-                            <Link onClick={ClickHandler} className="theme-btn-s2" to="/about">مزيد عن المبادرة</Link>
+                            <Link onClick={ClickHandler} style={{backgroundColor: '#333', padding: '15px 30px', textDecoration: 'none', color: '#d6b128', borderRadius: '6px', display:'block', width: 'fit-content', marginTop: '20px', fontWeight: '700'}} to="/about">المزيد عنا</Link>
                         </div>
                     </div>
                 </div>

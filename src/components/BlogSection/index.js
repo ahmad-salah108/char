@@ -8,28 +8,28 @@ import './blogSection.css'
 const BlogSection = (props) => {
     const [blogs, setBlogs] = useState([
         {
-            AUTHOR:"عادل",
+            AUTHOR:"شاهد المزيد",
             IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
             TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
             BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
             NEW_ID:1
         },
         {
-            AUTHOR:"عادل",
+            AUTHOR:"شاهد المزيد",
             IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
             TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
             BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
             NEW_ID:3
         },
         {
-            AUTHOR:"عادل",
+            AUTHOR:"شاهد المزيد",
             IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
             TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
             BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
             NEW_ID:3
         },
         {
-            AUTHOR:"عادل",
+            AUTHOR:"شاهد المزيد",
             IMAGES:[{FILE:"https://khbrpress.ps/thumb/730x400/uploads/images/2020/12/WemNk.jpeg"}],
             TITLE:" إحصائية حوادث السير في قطاع غزة خلال الأسبوع الماضي",
             BRIEF:"نشرت وزارة الداخلية في غزة ، صباح يوم السبت، إحصائية حوادث السير بالقطاع، خلال الأسبوع الماضي 8-14 أكتوبر 2022.",
@@ -57,7 +57,7 @@ const BlogSection = (props) => {
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="wpo-section-title">
-                                <span>أخر الأخبار</span>
+                                <span style={{color:"#d6b128"}}>أخر الأخبار</span>
                                 <h2>تصفح أخر الأخبار</h2>
                             </div>
                         </div>

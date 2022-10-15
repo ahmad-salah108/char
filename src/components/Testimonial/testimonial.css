@@ -1,3 +1,6 @@
 .wpo-testimonial-content{
   direction: rtl;
 }
+.quote::before{
+  color:#d6b128 !important
+}

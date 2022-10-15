@@ -105,7 +105,7 @@ class Testimonial extends Component {
                         <div className="col-lg-6">
                             <div className="wpo-section-title">
                                 {/* <span>قالوا عنا</span> */}
-                                <h2 style={{color: '#ef5f34'}}>قالوا عنا</h2>
+                                <h2 style={{color:"#d6b128"}}>قالوا عنا</h2>
                                 {/* <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some form,</p> */}
                             </div>
@@ -120,7 +120,7 @@ class Testimonial extends Component {
                                             <img src={tesmnl.tsImg} alt="" />
                                         </div> */}
                                         <div className="wpo-testimonial-content">
-                                            <p>{tesmnl.Des}</p>
+                                            <p className="quote">{tesmnl.Des}</p>
                                             <h2>{tesmnl.Title}</h2>
                                             <a href={tesmnl.Sub} target='_blank'>شاهد</a>
                                         </div>

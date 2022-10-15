@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MobileMenu from '../../components/MobileMenu'
+import logo from './../../assets/pa2.PNG'
 
 
 export default class Header extends Component {
@@ -52,7 +53,8 @@ export default class Header extends Component {
                                 </div>
                                 <div className="col-lg-2 col-md-6 col-6">
                                     <div className="navbar-header">
-                                        <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img style={{width:"160px",height:"80px", objectFit: 'contain'}} src={"./assets/imgs/pa2.png"}
+                                        <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img style={{width:"160px",height:"80px", objectFit: 'contain'}} 
+                                        src={logo}
                                             alt="" /></Link>
                                     </div>
                                 </div>

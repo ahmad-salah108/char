@@ -21,7 +21,7 @@ const Hero =() => {
                     <div className="col col-xs-6 col-lg-5">
                         <div className="wpo-hero-section-text">
                             <div className="wpo-hero-title-top">
-                                <span>مبادرة الإنقاذ الوطني</span>
+                                <span style={{color:"#d6b128"}}>مبادرة الإنقاذ الوطني</span>
                             </div>
                             {/* <div className="wpo-hero-title">
                                 <h2>{t("Euro")}</h2>

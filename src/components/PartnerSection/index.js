@@ -3,6 +3,7 @@ import { Card, Button, Form, Input, Row, DatePicker, notification, message } fro
 import moment from 'moment'
 import { local } from '../../axios_instances.jsx';
 import axios from 'axios';
+import './partner.css'
 
 
 
@@ -32,7 +33,7 @@ const SignToUs = () => {
     return (
         <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", padding: "24px", backgroundColor: "#ebfcfa" }}>
             <Card style={{ width: "60%", boxShadow: "0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}>
-                <Row style={{ width: "100%", backgroundColor: "rgb(40 212 133)", padding: "0px 0px", justifyContent: "center" }}>
+                <Row style={{ width: "100%", backgroundColor: "#333", color: '#d6b128', padding: "20px 0px", justifyContent: "center" }}>
                     <span style={{ fontSize: "16px", fontWeight: "bold", padding: "8px", textAlign: "center" }}>التوقيع على المبادرة</span>
                 </Row>
                 <Row style={{ width: "100%", marginTop: "24px", display: "flex", flexDirection: "row", justifyContent: "center" }}>
@@ -118,7 +119,7 @@ const SignToUs = () => {
                             <Input.TextArea placeholder="ادخل العنوان الخاص بك هنا" />
                         </Form.Item>
                         <Form.Item>
-                            <Button htmlType="submit" style={{ width: "90px", height: "40px", fontSize: "16px", fontWeight: "bold", backgroundColor: "rgb(40 212 133)", borderRadius: "6px", color: "white" }}>حفظ</Button>
+                            <Button htmlType="submit" style={{ width: "90px", height: "40px", fontSize: "16px", fontWeight: "bold", backgroundColor: "#333", borderRadius: "6px", color: "#d6b128" }}>حفظ</Button>
                         </Form.Item>
                     </Form>
                 </Row>

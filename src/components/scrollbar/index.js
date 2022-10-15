@@ -8,7 +8,7 @@ const Scrollbar = () => {
         <div className="col-lg-12">
             <div className="header-menu">
                 <ul className="smothscroll">
-                    <li><AnchorLink href='#scrool'><i className="ti-arrow-up"></i></AnchorLink></li>
+                    <li ><AnchorLink href='#scrool' style={{backgroundColor:"#d6b128", border:"none"}}><i className="ti-arrow-up"></i></AnchorLink></li>
                 </ul>
             </div>
         </div>
