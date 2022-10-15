@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import Clients from './client'
 
-
 import hero1 from '../../images/slider/right-img2.png'
 import hero2 from '../../images/slider/s.png'
 import hero3 from '../../images/slider/right-img.png'
@@ -16,10 +15,10 @@ const Hero =() => {
     const { t, i18n } = useTranslation()
 
     return (
-        <section className="wpo-hero-section-1">
+        <section className="wpo-hero-section-1" style={{height:"auto", padding:"50px 0"}}>
             <div className="container-fluid">
                 <div className="row align-items-center">
-                    <div className="col col-xs-6 col-lg-6">
+                    <div className="col col-xs-6 col-lg-5">
                         <div className="wpo-hero-section-text">
                             <div className="wpo-hero-title-top">
                                 <span>مبادرة الإنقاذ الوطني</span>
@@ -39,9 +38,9 @@ const Hero =() => {
                         <div className="right-vec">
                             <div className="right-items-wrap">
                                 <div className="right-item">
-                                    <div className="r-img">
+                                    {/* <div className="r-img">
                                         <img src={"./assets/imgs/palestineflag.png"} style={{width:"400px",height:"569px"}} alt=""/>
-                                    </div>
+                                    </div> */}
                                     {/* <div className="wpo-happy-client">
                                         <Clients/>
                                     </div> */}
@@ -60,8 +59,9 @@ const Hero =() => {
                                         <div className="project-shape">
                                         </div>
                                     </div>
-                                    <div className="r-img">
-                                        <img src={"./assets/imgs/aqsaa.webp"}  style={{width:"400px",height:"569px"}} alt=""/>
+                                    <div className="">
+                                        <img src={"./assets/imgs/aqsaa.webp"}  
+                                        style={{width:"100%",height:"430px", objectFit:'cover', borderRadius:"20px"}} alt=""/>
                                     </div>
                                 </div>
                             </div>

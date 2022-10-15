@@ -18,7 +18,9 @@ const About = (props) => {
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-wrap">
                             <div className="wpo-about-img">
-                                <img src={"https://images.pexels.com/photos/8194913/pexels-photo-8194913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} alt=""/>
+                                <img src={"https://images.pexels.com/photos/8194913/pexels-photo-8194913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} 
+                                style={{width:"500px", height:"500px", objectFit:"cover"}}
+                                alt=""/>
                                 <div className="wpo-ab-shape-1">
                                     <div className="s-s1"></div>
                                     <div className="s-s2"></div>
