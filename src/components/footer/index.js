@@ -2,6 +2,9 @@ import React from 'react'
 import {Link}  from 'react-router-dom'
 import Logo from '../../images/logo2.png'
 import Projects from '../../api/projects'
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+
 import './footer.css'
 
 const Footer = (props) =>{
@@ -60,6 +63,9 @@ const Footer = (props) =>{
                             </div>
                         </div>
                     </div>
+                    <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        <Calendar/>
+                    </div>
                     <div className='col-12'>
                         <p className="copyright"> &copy; 2021 Developed By Domino ICT. All Rights Reserved.</p>
                     </div>

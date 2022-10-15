@@ -169,3 +169,7 @@
 border: 1px solid transparent;
 pointer-events: none;
 }
+
+.react-calendar{
+  border-radius: 7px;
+}
