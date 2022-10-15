@@ -1,0 +1,19 @@
+.wpo-site-footer .wpo-upper-footer{
+  padding: 20px 0 !important;
+}
+.wpo-site-footer .about-widget ul{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+}
+.copyright{
+  margin: 0 !important;
+  text-align: left;
+  direction: ltr;
+}
+.wpo-site-footer .about-widget ul li + li{
+  margin-left: 0 !important;
+}
+.wpo-site-footer .widget-title{
+  margin-bottom: 0 !important;
+}
