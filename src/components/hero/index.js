@@ -22,23 +22,13 @@ const Hero =() => {
                     <div className="col col-xs-6 col-lg-6">
                         <div className="wpo-hero-section-text">
                             <div className="wpo-hero-title-top">
-<<<<<<< HEAD
                                 <span>مبادرة الإنقاذ الوطني</span>
-=======
-                                <span>وثيقة الانتاج الوطني</span>
->>>>>>> 6a2e42630698b8c4d07d61718b3075e79baefe91
                             </div>
                             {/* <div className="wpo-hero-title">
                                 <h2>{t("Euro")}</h2>
                             </div> */}
-<<<<<<< HEAD
                             <div className="wpo-hero-subtitle">
                                 <p>الموقع الرسمي لوثيقة الانقاذ الوطني.</p>
-=======
-                            <br/>
-                            <div className="wpo-hero-subtitle">
-                                <p>الموقع الرسمي لوثيقة الانتاج الوطني يرحب بكم</p>
->>>>>>> 6a2e42630698b8c4d07d61718b3075e79baefe91
                             </div>
                             {/* <div className="btns">
                                 <Link to="/about" className="btn theme-btn-s2">Get Started</Link>
